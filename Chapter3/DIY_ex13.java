@@ -1,5 +1,5 @@
 // 13
-public class DIY_ex {
+public class DIY_ex13 {
 
 	public static void main(String[] args) {
 		int space_ = 0;
