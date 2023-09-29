@@ -1,5 +1,5 @@
 // 09
-public class DIY_ex04 {
+public class DIY_ex09 {
 	public static void main(String[] args) {
 		int max = 0;
 		for (int i = 100; i > 0; i--) {
