@@ -1,4 +1,3 @@
-package Chapter3;
 
 public class DIY_ex16 {
 
