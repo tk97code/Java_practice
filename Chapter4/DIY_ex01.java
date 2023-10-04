@@ -4,9 +4,9 @@ import java.util.*;
 
 public class DIY_ex01 {
 
-	public static void smallest(int[] arr) {
+	public static int smallest(int[] arr) {
 		Arrays.sort(arr);
-		System.out.println("The smallest number is " + arr[0]);
+		return arr[0];
 	}
 	
 	public static void main(String[] args) {
@@ -17,9 +17,8 @@ public class DIY_ex01 {
 			System.out.print("Input number " + (i+1) + " : ");
 			arr[i] = sc.nextInt();
 		}		
-		smallest(arr);
+		System.out.println("Smallest number of " + Arrays.toString(arr) + " is " + smallest(arr));
 		
 	}
 
 }
-
