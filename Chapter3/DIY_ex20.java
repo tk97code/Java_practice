@@ -1,5 +1,6 @@
-public class DIY_ex20 {
+package Chapter3;
 
+class FactorialApplication {
 	public static void main(String[] args) {
 		long number, result;
 		number = 6;
@@ -17,5 +18,12 @@ public class DIY_ex20 {
 			
 		return result;
 	}
+}
+
+public class DIY_ex20 {
+	public static void main(String[] args) {
+		FactorialApplication.main(args);
+	}
+	
 
 }
