@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class DIY_ex03 {
 	public static int CountWord(String str) {
 		int count = 0;
-		boolean isWord = true;
 		String[] str_arr = str.split(" ");
 		
 		// Empty string
