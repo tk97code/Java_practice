@@ -15,6 +15,13 @@ class Circle2D {
 		this.radius = 0;
 		this.color = Color.white;
 	}
+	
+	Circle2D(Point2D center, double radius, Color color) {
+		this.center = center;
+		this.radius = radius;
+		this.color = color;
+	}
+	
 	public double getRadius() {
 		return radius;
 	}
@@ -42,7 +49,8 @@ class Circle2D {
 	public void display() {
 		System.out.println("Center of circle: " + getCenter().getX() + ", " + getCenter().getY());
 		System.out.println("Radius of circle: " + getRadius());
-		System.out.println("Color of circle: " + getColor().getRed() + ", " + getColor().getGreen() + ", " + getColor().getBlue());
+		System.out.println("Color of circle (R, G, B): " + getColor().getRed() + ", " + getColor().getGreen() + ", " + getColor().getBlue());
+		System.out.println("-------------------------------------------------------");
 	}
 }
 
@@ -55,6 +63,9 @@ public class DIY_ex02 {
 		circle.setRadius(4);
 		circle.setColor(Color.green);
 		circle.display();
+		
+		Circle2D circle2 = new Circle2D(center, 5.5, Color.red);
+		circle2.display();
 	}
 
 }
